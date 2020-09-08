@@ -14,6 +14,9 @@
 		3EBF0DBA2506FEF800B9762B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EBF0DB92506FEF800B9762B /* Assets.xcassets */; };
 		3EBF0DBD2506FEF800B9762B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EBF0DBB2506FEF800B9762B /* LaunchScreen.storyboard */; };
 		3EBF0DC52507016900B9762B /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF0DC42507016900B9762B /* AppCoordinator.swift */; };
+		3EBF0DC7250710E500B9762B /* restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = 3EBF0DC6250710E500B9762B /* restaurants.json */; };
+		3EBF0DC92507118D00B9762B /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF0DC82507118D00B9762B /* Restaurant.swift */; };
+		3EBF0DCB2507125B00B9762B /* RestaurantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF0DCA2507125B00B9762B /* RestaurantService.swift */; };
 		7744A0A51ED4E04DF98AED54 /* Pods_MVVMRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0C7F67780BD76ABF4A5382 /* Pods_MVVMRxSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +30,9 @@
 		3EBF0DBC2506FEF800B9762B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EBF0DBE2506FEF800B9762B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EBF0DC42507016900B9762B /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		3EBF0DC6250710E500B9762B /* restaurants.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = restaurants.json; sourceTree = "<group>"; };
+		3EBF0DC82507118D00B9762B /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		3EBF0DCA2507125B00B9762B /* RestaurantService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantService.swift; sourceTree = "<group>"; };
 		5A0C7F67780BD76ABF4A5382 /* Pods_MVVMRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B5A0FB2C57F60334E2FFC28 /* Pods-MVVMRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-MVVMRxSwift/Pods-MVVMRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		9A7E4552E9865C44261E03B8 /* Pods-MVVMRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMRxSwift.release.xcconfig"; path = "Target Support Files/Pods-MVVMRxSwift/Pods-MVVMRxSwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +87,9 @@
 				3EBF0DB92506FEF800B9762B /* Assets.xcassets */,
 				3EBF0DBB2506FEF800B9762B /* LaunchScreen.storyboard */,
 				3EBF0DBE2506FEF800B9762B /* Info.plist */,
+				3EBF0DC6250710E500B9762B /* restaurants.json */,
+				3EBF0DC82507118D00B9762B /* Restaurant.swift */,
+				3EBF0DCA2507125B00B9762B /* RestaurantService.swift */,
 			);
 			path = MVVMRxSwift;
 			sourceTree = "<group>";
@@ -154,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EBF0DC7250710E500B9762B /* restaurants.json in Resources */,
 				3EBF0DBD2506FEF800B9762B /* LaunchScreen.storyboard in Resources */,
 				3EBF0DBA2506FEF800B9762B /* Assets.xcassets in Resources */,
 				3EBF0DB82506FEF300B9762B /* Main.storyboard in Resources */,
@@ -209,9 +219,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EBF0DC92507118D00B9762B /* Restaurant.swift in Sources */,
 				3EBF0DC52507016900B9762B /* AppCoordinator.swift in Sources */,
 				3EBF0DB52506FEF300B9762B /* ViewController.swift in Sources */,
 				3EBF0DB12506FEF300B9762B /* AppDelegate.swift in Sources */,
+				3EBF0DCB2507125B00B9762B /* RestaurantService.swift in Sources */,
 				3EBF0DB32506FEF300B9762B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
